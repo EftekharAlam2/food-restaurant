@@ -76,6 +76,9 @@ const FoodCard = ({ item }) => {
           </button>
         </div>
       </div>
+      <div>
+        <h2>erfwofj</h2>
+      </div>
     </div>
   );
 };
