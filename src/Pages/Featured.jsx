@@ -28,9 +28,6 @@ const Featured = () => {
             Order Now
           </button>
         </div>
-        <div>
-          <h1>dopijfif</h1>
-        </div>
       </div>
     </div>
   );
