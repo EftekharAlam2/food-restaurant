@@ -51,6 +51,9 @@ const Order = () => {
           <OrderTab items={drinks}></OrderTab>
         </TabPanel>
       </Tabs>
+      <div>
+        <h1>e</h1>
+      </div>
     </div>
   );
 };
