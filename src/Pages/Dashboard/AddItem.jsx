@@ -30,7 +30,6 @@ const AddItem = () => {
             recipe,
             image: imgURL,
           };
-          console.log(newItem);
           axiosSecure.post("/menu", newItem).then((data) => {
             console.log("after posting new menu item", data.data);
             if (data.data.insertedId) {
