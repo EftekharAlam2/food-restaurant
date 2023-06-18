@@ -77,7 +77,7 @@ const Login = () => {
                   type="email"
                   name="email"
                   placeholder="email"
-                  className="input input-bordered"
+                  className="input input-bordered max-w-xs"
                 />
               </div>
               <div className="form-control">
@@ -88,7 +88,7 @@ const Login = () => {
                   type="password"
                   name="password"
                   placeholder="password"
-                  className="input input-bordered"
+                  className="input input-bordered max-w-xs"
                 />
                 <label className="label">
                   <a href="#" className="label-text-alt link link-hover">
@@ -105,13 +105,13 @@ const Login = () => {
                   type="text"
                   name="captcha"
                   placeholder="type the captcha above"
-                  className="input input-bordered"
+                  className="input input-bordered max-w-xs"
                 />
               </div>
               <div className="form-control mt-6">
                 <input
                   disabled={disabled}
-                  className="btn btn-primary"
+                  className="btn btn-primary max-w-xs"
                   type="submit"
                   value="Login"
                 />

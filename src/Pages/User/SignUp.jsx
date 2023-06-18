@@ -74,7 +74,7 @@ const SignUp = () => {
                   {...register("name", { required: true })}
                   name="name"
                   placeholder="Name"
-                  className="input input-bordered"
+                  className="input input-bordered max-w-xs"
                 />
                 {errors.name && (
                   <span className="text-red-600">Name is required</span>
@@ -88,7 +88,7 @@ const SignUp = () => {
                   type="text"
                   {...register("photoURL", { required: true })}
                   placeholder="Photo URL"
-                  className="input input-bordered"
+                  className="input input-bordered max-w-xs"
                 />
                 {errors.photoURL && (
                   <span className="text-red-600">Photo URL is required</span>
@@ -103,7 +103,7 @@ const SignUp = () => {
                   {...register("email", { required: true })}
                   name="email"
                   placeholder="email"
-                  className="input input-bordered"
+                  className="input input-bordered max-w-xs"
                 />
                 {errors.email && (
                   <span className="text-red-600">Email is required</span>
@@ -122,7 +122,7 @@ const SignUp = () => {
                     pattern: /(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z])/,
                   })}
                   placeholder="password"
-                  className="input input-bordered"
+                  className="input input-bordered max-w-xs"
                 />
                 {errors.password?.type === "required" && (
                   <p className="text-red-600">Password is required</p>
@@ -149,7 +149,7 @@ const SignUp = () => {
               </div>
               <div className="form-control mt-6">
                 <input
-                  className="btn btn-primary"
+                  className="btn btn-primary max-w-xs"
                   type="submit"
                   value="Sign Up"
                 />
